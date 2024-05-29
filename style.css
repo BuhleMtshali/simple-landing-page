@@ -166,10 +166,22 @@ li {
   width: 400px;
   object-fit: cover;
 }
+.right-side-info-pic img {
+  height: 450px;
+  width: 400px;
+  object-fit: cover;
+}
 h2 .service-left {
   font-size: 50px;
 }
+
 .service-left-descrip {
+  color: #6e6e6e;
+  font-size: 17px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.service-right-descrip {
   color: #6e6e6e;
   font-size: 17px;
   padding-top: 24px;
@@ -184,4 +196,19 @@ h2 .service-left {
 .right-side-info {
   display: flex;
   justify-content: space-evenly;
+}
+.readmore-button {
+  padding: 15px 25px;
+  background: #f50057;
+  color: white;
+  border-radius: 9px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.readmore-button:hover {
+  background-color: #f7f8fa;
+  color: #f50057;
+  border: 1px solid #f50057;
 }
