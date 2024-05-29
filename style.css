@@ -97,6 +97,11 @@ li {
   font-weight: 600;
   cursor: grabbing;
 }
+.pink:hover {
+  background: #f7f8fa;
+  color: #f50057;
+  border: 1px solid #f50057;
+}
 .home-navy {
   color: #003247;
 }
@@ -112,6 +117,11 @@ li {
   font-weight: 600;
   cursor: grabbing;
 }
+.navy:hover {
+  background: #f7f8fa;
+  color: #003247;
+  border: 1px solid #003247;
+}
 .image-main {
   text-align: center;
   width: 500px;
@@ -120,4 +130,14 @@ li {
   height: auto;
   border-radius: 10px;
   padding-top: 10px;
+}
+.works-heading {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.how-it-works {
+  padding-top: 78px;
+  padding-bottom: 48px;
 }
