@@ -181,3 +181,7 @@ h2 .service-left {
   margin-bottom: 1rem;
   color: #6e6e6e;
 }
+.right-side-info {
+  display: flex;
+  justify-content: space-evenly;
+}
