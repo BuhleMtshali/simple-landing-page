@@ -112,3 +112,12 @@ li {
   font-weight: 600;
   cursor: grabbing;
 }
+.image-main {
+  text-align: center;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  height: auto;
+  border-radius: 10px;
+  padding-top: 10px;
+}
