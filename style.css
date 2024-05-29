@@ -141,3 +141,18 @@ li {
   padding-top: 78px;
   padding-bottom: 48px;
 }
+.column-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon svg {
+  width: 55px;
+  height: 55px;
+}
+.column-heading h3 {
+  font-size: 20px;
+}
+.read-link {
+  color: #f50057;
+  cursor: pointer;
+}
