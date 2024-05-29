@@ -144,6 +144,7 @@ li {
 .column-container {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 80px;
 }
 .icon svg {
   width: 55px;
@@ -155,4 +156,28 @@ li {
 .read-link {
   color: #f50057;
   cursor: pointer;
+}
+.info-services {
+  display: flex;
+  justify-content: space-evenly;
+}
+.left-side-info-pic img {
+  height: 350px;
+  width: 400px;
+  object-fit: cover;
+}
+h2 .service-left {
+  font-size: 50px;
+}
+.service-left-descrip {
+  color: #6e6e6e;
+  font-size: 17px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.extra-info-left {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 1rem;
+  color: #6e6e6e;
 }
