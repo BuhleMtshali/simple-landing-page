@@ -2,6 +2,7 @@ body {
   font-family: Poppins, sans-serif;
   scroll-behavior: smooth;
   cursor: grab;
+  margin: 0;
 }
 .container {
   overflow-y: scroll;
@@ -216,6 +217,7 @@ h2 .service-left {
   display: flex;
   justify-content: space-around;
   margin-top: 40px;
+  margin-bottom: 30px;
 }
 .middle-box {
   position: relative;
@@ -271,4 +273,19 @@ h2 .service-left {
   font-size: 17px;
   color: #6e6e6e;
   font-weight: 600;
+}
+.feedback-section {
+  padding-top: 30px;
+}
+.feedback-head-text {
+  text-align: center;
+  padding-bottom: 48px;
+}
+.feedback-heading {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.feedback-description {
+  color: #6e6e6e;
+  font-size: 20px;
 }
