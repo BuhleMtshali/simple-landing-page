@@ -381,27 +381,66 @@ h2 .service-left {
 }
 footer {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: left;
+  text-align: left;
+
+  margin: 20px;
 }
 .column-footer {
-  position: relative;
-  width: 400px;
-  height: 400px;
-  text-align: center;
+  width: 350px;
+  height: 250px;
+  text-align: left;
 
   border-radius: 10px;
   margin: 10px;
 }
 input {
   display: block;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: left;
 }
 ol {
   list-style-type: none;
+  text-align: left;
+}
+
+.email {
+  padding: 10px 19px;
+  border-radius: 10px;
+  border: none;
+  background: #f6f7fb;
+}
+.subscribe-button {
+  padding: 10px 19px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #f6f7fb;
+  color: #f50057;
+  font-size: 16px;
+  font-weight: 500;
 }
 .list-footer {
-  padding: 8px;
+  padding: 5px;
+  text-align: left;
+}
+.footer-heading {
+  text-align: left;
+}
+.social-icons {
+  display: flex;
+  justify-content: left;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.icons img {
+  padding: 5px;
+}
+.icons img:hover {
+  width: 26px;
+  height: 26px;
+  background: #ff80ab;
+
+  border: none;
+  border-radius: 50%;
+  object-fit: cover;
 }
